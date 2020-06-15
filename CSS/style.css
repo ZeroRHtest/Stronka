@@ -1,12 +1,14 @@
 html {
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+   
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 body {
+    position: absolute;
     font-family: Roboto;
     background-image: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-    margin: 0;
+    
+    
     
     text-decoration: none;
     color: black;
