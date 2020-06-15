@@ -1,0 +1,55 @@
+.main-nav {
+    font-family: Raleway;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo-pic_img {
+    width: 70px;
+    margin-right: 20px;
+}
+.logo-pic_link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    
+    font-style: ;
+
+}
+.nav-item__link {
+    text-decoration: none;
+    color: white; 
+    padding: 5px;
+}
+.nav-item__link:hover{
+    border-bottom: 2px white solid;
+}
+
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.navigation-list_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-list_item {
+    margin-left: 40px;
+    font-size: 10px;
+
+}
