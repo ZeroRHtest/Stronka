@@ -4,7 +4,7 @@ html {
 }
 body {
     font-family: Roboto;
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     margin: 0;
     position: fixed;
