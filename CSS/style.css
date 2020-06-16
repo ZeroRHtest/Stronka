@@ -8,6 +8,7 @@ body {
     font-family: Roboto;
     background-image: url(../images/banner.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     
     
     
