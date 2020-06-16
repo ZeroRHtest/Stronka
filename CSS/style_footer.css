@@ -1,15 +1,13 @@
 .stopka {
-    display: flex;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.644);
-    color: black;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(128, 128, 128);
     text-align: center;
     
     
 }
+.stopka{ height:50px;  }
 
 .test1 p {
     font-family: Raleway;
