@@ -7,13 +7,16 @@ body {
     position: absolute;
     font-family: Roboto;
     background-image: url(../images/banner.jpg);
-    background-position: center;
     background-attachment: fixed;
     background-size: cover;
    
 }
 
+@media only screen and (min-width: 768px){
 
+    visibility: hidden;
+    
+}
 
 .container {
     margin-top: 2000px;

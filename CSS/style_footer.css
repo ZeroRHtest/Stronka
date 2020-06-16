@@ -1,10 +1,9 @@
 .stopka {
-    border: solid 2px black;
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    
     background-color: rgba(0, 0, 0, 0.644);
     color: black;
     text-align: center;
@@ -13,5 +12,9 @@
 }
 
 .test1 p {
+    font-family: Raleway;
+    align-content: center;
+    width: 100%;
+    height: auto;
     
 }
