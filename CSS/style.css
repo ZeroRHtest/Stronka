@@ -7,21 +7,15 @@ body {
     position: absolute;
     font-family: Roboto;
     background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-    
-    text-decoration: none;
-    color: black;
-
-    
+    background-position: center;
+    background-attachment: fixed;
+   
 }
 
 
 
 .container {
-    margin-top: 200px;
+    margin-top: 2000px;
 }
 
 
