@@ -6,7 +6,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-size: cover;

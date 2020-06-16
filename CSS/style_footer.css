@@ -10,7 +10,7 @@
 .stopka{ height:50px;  }
 
 .test1 p {
-    font-family: Raleway;
+    font-family: Raleway, 'Courier New', Courier, monospace;
     align-content: center;
     width: 100%;
     height: auto;
