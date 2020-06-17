@@ -40,16 +40,19 @@
 .navigation-list_item {
     margin-right: 40px;
 }
-@media (max-width: 850px){
+@media (max-width: 1000px){
     .navigation-list_item{
-        visibility: hidden;
+        position: fixed;
+        flex-direction: column;
         
     }
     .nav-menu__scroll {
+        
         border: solid wheat 1px;
         width: 30px;
         height: 50px;
         margin-right: 20px;
+
     }
     .dot {
         display: flex;
