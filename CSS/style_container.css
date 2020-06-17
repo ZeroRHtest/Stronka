@@ -1,22 +1,29 @@
 .container {
     display: flex;
-    margin-top: 70px; 
-    max-width: 60%;
+    margin-top: 80px; 
+    margin-bottom: 20px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;  
 }
 
 .container_right {
         flex-direction: column;
-        border: solid white 2px;
+        margin-left: 10px;
   }
   .container_center {
       
       margin-left: auto;
       margin-right: auto;
+      text-align: justify;
+      max-width: 800px;
   }
 
   .container_left {
-    border: solid white 2px;
-    list-style: none;
+    
+    margin-right: 10px;
+  }
+
+  .container_left-list {
+      list-style: none;
   }
