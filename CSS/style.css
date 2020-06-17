@@ -1,27 +1,27 @@
 html {
    
-    overflow-y: scroll;
-    overflow-x:hidden;
+    
 }
 body {
+    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    
+
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
     background-attachment: fixed;
     background-size: cover;
    
-}
-html, body{ height:100%; margin:0; }
 
-@media only screen and (min-width: 768px){
-
-    c
     
+    
+   
 }
 
-.container {
-    margin-top: 2000px;
-}
+
 
 
