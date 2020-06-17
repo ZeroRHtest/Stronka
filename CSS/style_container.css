@@ -30,7 +30,7 @@
   }
   .left_pic {
       width: 100%;
-      
+      border-radius: 50%;
   }
 
   .container_left-list {
