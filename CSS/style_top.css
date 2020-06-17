@@ -23,6 +23,8 @@
 
 }
 .nav-item__link {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     color: white; 
     padding: 5px;
@@ -81,7 +83,7 @@
 
     .navigation-list_menu{
         position: fixed;
-        opacity: 0;
+        display: none;
         
 
     }
