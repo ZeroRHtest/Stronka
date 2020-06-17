@@ -5,10 +5,12 @@
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;  
+    flex-direction: column;
 }
 
 .container_right {
-        flex-direction: column;
+        
+        margin-right: 10px;
         margin-left: 10px;
   }
   .container_center {
@@ -20,10 +22,26 @@
   }
 
   .container_left {
-    
     margin-right: 10px;
+    justify-content: center;
+    
+    
+    
+  }
+  .left_pic {
+      width: 100%;
+      
   }
 
   .container_left-list {
       list-style: none;
+  }
+
+  @media (max-width: 850px){
+      .container{
+          flex-direction: column;
+          
+          margin-left: 10px;
+          margin-right: 10px;
+      }
   }
