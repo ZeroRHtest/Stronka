@@ -8,6 +8,6 @@
 
 .container_right {
         flex-direction: column;
-        border: solid 1px white;
+        
         position: absolute;
   }
