@@ -16,7 +16,7 @@
 .logo-pic_link {
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     display: flex;
     align-items: center;
@@ -35,13 +35,32 @@
     margin-left: auto;
     margin-right: auto
     list-style: none;
-
-    
-    
 }
 
 .navigation-list_item {
     margin-right: 40px;
+}
+@media (max-width: 850px){
+    .navigation-list_item{
+        visibility: hidden;
+        
+    }
+    .nav-menu__scroll {
+        border: solid wheat 1px;
+        width: 30px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .dot {
+        display: flex;
+        width: 10px;
+        height: 10px;
+        border: wheat solid 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+  
 }
 
 .nav-item__link {
