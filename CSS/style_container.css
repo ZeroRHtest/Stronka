@@ -11,3 +11,12 @@
         
         position: absolute;
   }
+  .container_center {
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .container_left {
+      list-style: none;
+  }
