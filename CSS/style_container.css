@@ -10,8 +10,11 @@
 
 .container_right {
         
-        margin-right: 10px;
-        margin-left: 10px;
+        width: auto;
+        margin: auto;
+       
+        
+        
   }
   .container_center {
       
@@ -19,6 +22,7 @@
       margin-right: auto;
       text-align: justify;
       max-width: 800px;
+      z-index: 20;
   }
 
   .container_left {
