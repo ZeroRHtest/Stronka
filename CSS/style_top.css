@@ -87,6 +87,7 @@
     }
 }
 
+/*  ////////////////////    Przycisk  /////////////////////////////*/
 @media (max-width: 850px){
     .menu_button{
         
@@ -107,34 +108,34 @@
         border-radius: 20px;
         width: 100%;
         top:50%;
-        span::after, span:before {
-            content: '';
-            background-color: #fff;
-            border-radius: 20px;
-            height: 3px;
-            width: 100%;
-            position: absolute;
-            left: 50%;
-            margin-left: -15px;
-            transition: all 200ms;
-              
-            span::after{
-                    top: -7px;
-                }
-            span::before{
-                     bottom: -7px;
-                    }
-        }
+       
     }
-   
+    span::after, span:before {
+        content: '';
+        background-color: #fff;
+        border-radius: 20px;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        transition: all 200ms;
+
+    }
+    span::after{
+        top: -7px;
+    }
+    span::before{
+         bottom: -7px;
+        }
+    
+    .menu_button.act span{
+        height: 0;
+    }
+        
+    /*/////////////////////////////////////////////////////////////*/    
   
 
+
 }
 
-@media (max-width: 850px){
-    &.act {
-        > span {
-            heigh
-        }
-    }
-}
