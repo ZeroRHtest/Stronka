@@ -1,14 +1,14 @@
 $(document).ready(function(){
 	// menu click event
-	$('.menu_button').click(function() {
-		$(this).toggleClass('act');
+	$('.guzik').click(function() {
+		$(this).toggleClass('dupa');
 			
-		if($(this).hasClass('act')) {
-				$('.navigation-list_menu').addClass('act');
+		if($(this).hasClass('dupa')) {
+				$('.navigation-list_menu').addClass('dupa');
 			}
 			
 		else {
-				$('.navigation-list_menu').removeClass('act');
+				$('.navigation-list_menu').removeClass('dupa');
 			}
 	});
 });
