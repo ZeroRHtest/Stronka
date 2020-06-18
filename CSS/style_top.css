@@ -107,7 +107,7 @@
         top:50%;
        
     }
-    .menu_guzik span::after, span:before {
+    .menu_guzik span::after, .menu_guzik span:before {
         content: '';
         background-color: #fff;
         border-radius: 20px;
