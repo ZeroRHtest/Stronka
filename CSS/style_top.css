@@ -55,18 +55,7 @@
     color: white;
 }
 
-@media (max-width: 850px){
-    .dot {
-        display: flex;
-        border: solid wheat 1px;
-        width: 10px;
-        height: 10px;
-        margin:auto;
-        margin-top: 8%; 
-        background: wheat;
-        border-radius: 50%;
-    }
-}
+
 
 @media (max-width: 850px){
     .navigation-list_menu{
@@ -106,7 +95,7 @@
     }  
    
 
-    span {
+    .menu_guzik span {
         
         height: 3px;
         width: 100%;
@@ -118,7 +107,7 @@
         top:50%;
        
     }
-    span::after, span:before {
+    .menu_guzik span::after, span:before {
         content: '';
         background-color: #fff;
         border-radius: 20px;
@@ -130,10 +119,10 @@
         transition: all 200ms;
 
     }
-    span::after{
+    .menu_guzik  span::after{
         top: -7px;
     }
-    span::before{
+    .menu_guzik span::before{
          bottom: -7px;
         }
 
