@@ -1,27 +1,27 @@
 .main-nav {
     font-family: Raleway;
     position: fixed;
-    background-color: black;
-    top: 0;
-    right: 0;
     left: 0;
-    
-    
+    right: 0;
+    background-color: black;
+  
+}
+.navigation-logo {
+    margin-left: 20px;
 }
 
 .logo-pic_img {
-    width: 80px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 50px; 
+    margin-right: 10px;   
 }
+
 .logo-pic_link {
     text-decoration: none;
     font-weight: bold;
     font-size: 23px;
     color: white;
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 .navigation-bar
 {
@@ -57,8 +57,8 @@
         border: solid wheat 1px;
         width: 10px;
         height: 10px;
-        margin: auto;
-        margin-top: 3px;
+        margin:auto;
+        margin-top: 8%; 
         background: wheat;
         border-radius: 50%;
     }
@@ -66,7 +66,7 @@
 
 @media (max-width: 850px){
     .navigation-list_menu{
-       border: springgreen solid 1px;
+       
         background: rgba(0, 0, 0, 0.9);
         position: fixed;
         margin: 0;
@@ -83,16 +83,48 @@
     .navigation-list_item { 
         list-style: none;
         margin-top: 30px;
-        
+                
     }
+}
 
-    .nav-menu__scroll {
+@media (max-width: 850px){
+    .menu_button{
         
-        margin-left: auto;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+
         width: 30px;
-        height: 50px;
-        margin-right: 20px;
-
+        height: 30px;
+          
+    }   
+    span {
+        
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 100%;
+        top:50%;
+       
     }
-  
+    span::after, span::before {
+        content: '';
+        background-color: #fff;
+        border-radius: 20px;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+		margin-left: -15px;
+		transition: all 200ms;
+    }
+    span::after{
+        top: -7px;
+    }
+    span::before{
+        bottom: -7px;
+    }
+
 }
